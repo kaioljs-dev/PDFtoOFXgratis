@@ -1,0 +1,47 @@
+# Python / Compilados e Caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+
+# Ambientes virtuais
+.venv/
+env/
+venv/
+ENV/
+
+# Proteção de Extratos e Dados Confidenciais (LGPD)
+tests/fixtures/*
+!tests/fixtures/.gitkeep
+input_extratos/*
+!input_extratos/.gitkeep
+output_ofx/*
+!output_ofx/.gitkeep
+samples/ofx_output/
+*.pdf
+*.PDF
+*.ofx
+*.OFX
+
+# IDEs e Editores
+.idea/
+.vscode/
+*.swp
+*.swo
