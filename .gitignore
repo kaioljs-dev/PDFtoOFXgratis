@@ -39,6 +39,10 @@ samples/ofx_output/
 *.PDF
 *.ofx
 *.OFX
+*_text.txt
+*_dump.txt
+*.log
+
 
 # IDEs e Editores
 .idea/
